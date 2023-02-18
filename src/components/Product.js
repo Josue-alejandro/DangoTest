@@ -76,7 +76,8 @@ const Product = ({ product, subChildData }) => {
                 style={style.image} 
                 src={product.img} 
                 width="300" 
-                height="200" 
+                height="200"
+                alt="" 
                 />
                 <p>${product.price}.00</p>
                 <input 
